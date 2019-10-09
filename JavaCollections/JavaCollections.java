@@ -23,7 +23,7 @@ public class JavaCollections {
      */
         
     public static void main(String[] args) {
-        System.out.println("----------ArrayList---------------");
+        System.out.println("----------ArrayLists---------------");
         //Add a list of items in array but remove one
         ArrayList<String> fruit;
         fruit = new ArrayList<>();
@@ -79,7 +79,7 @@ public class JavaCollections {
         set.add("60");
         System.out.println(set);
         
-        System.out.println("----------LinkedList---------------");
+        System.out.println("----------LinkedLists---------------");
         //LinkedList of student but ommit one student (Eric)
         LinkedList<String> students;
         students = new LinkedList<>();
