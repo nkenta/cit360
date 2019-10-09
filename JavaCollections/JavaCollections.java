@@ -14,7 +14,7 @@ import java.util.LinkedList;
 
 /**
  *
- * @author Nkenta
+ * @author Nkenta Uchechukwu
  */
 public class JavaCollections {
 
