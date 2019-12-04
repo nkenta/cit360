@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="dataModel.Data" table="USER_INFOMATION">
+<id column="ID" name="id" type="long" />
+<property column="FIRST_NAME" name="firstName" type="string" />
+<property column="MIDDLE_NAME" name="middleName" type="string" />
+<property column="SUR_NAME" name="surName" type="string" />
+<property column="AGE" name="age" type="string" />
+<property column="EMAIL" name="email" type="string" />
+<property column="OCCUPATION" name="occupation" type="string" />
+<property column="LOCATION" name="location" type="string" />
+</class>
+</hibernate-mapping>
